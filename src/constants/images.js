@@ -25,6 +25,8 @@ import about04 from '../assets/about04.png';
 
 import circle from '../assets/circle.svg';
 import spinner from '../assets/bg_spinner.svg';
+import divisor from '../assets/divisor.svg';
+
 
 export default {
   email,
@@ -52,4 +54,5 @@ export default {
   about04,
   circle,
   spinner,
+  divisor,
 };

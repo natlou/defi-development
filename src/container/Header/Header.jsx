@@ -31,10 +31,22 @@ const Header = () => (
             <h1 className="head-text">Nathan</h1>
           </div>
         </div>
+        <div className="app__flex app_header-animate-container">
+          <div className='animation-cmp '>
+                
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+    
+          </div>
 
-        <div className="tag-cmp app__flex">
-          <p className="p-text">Web Developer</p>
-          <p className="p-text"></p>
+          <div className="tag-cmp">
+            <p className="p-text">Web Developer</p>
+            <p className="p-text"></p>
+          </div>
         </div>
       </div>
     </motion.div>
