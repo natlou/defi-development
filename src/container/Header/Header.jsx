@@ -39,23 +39,22 @@ const Header = () => (
       </div>
     </motion.div>
 
-
-
     <motion.div
-      variants={scaleVariants}
-      whileInView={scaleVariants.whileInView}
-      className="app__header-circles"
-    >
-      {[images.python, images.next, images.solidity,
-      images.sass,
-        images.redux, images.react,  
-        images.node, images.git, images.ethers,  images.cpp,
-        images.aws, images.javascript,  images.typescript,  images.sql].map((circle, index) => (
-        <div className="circle-cmp app__flex" key={`circle-${index}`}>
-          <img src={circle} alt="profile_bg" />
-        </div>
-      ))}
+        variants={scaleVariants}
+        whileInView={scaleVariants.whileInView}
+        className="app__header-circles"
+        >
+        {[images.typescript, images.next, images.solidity,
+        images.sass,
+            images.redux, images.react,  images.git,
+            images.node,  images.ethers,  images.cpp,
+            images.javascript,  images.sql, images.aws].map((circle, index) => (
+            <div className="circle-cmp app__flex" key={`circle-${index}`}>
+            <img src={circle} alt="profile_bg" />
+            </div>
+        ))}
     </motion.div>
+
   </div>
 );
 
