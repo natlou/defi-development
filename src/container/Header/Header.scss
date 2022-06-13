@@ -16,7 +16,7 @@
 }
 
 .app__header {
-  flex: 1;
+  flex: 0.5;
   width: 100%;
   height: 100%;
   flex-direction: row;
@@ -37,7 +37,7 @@
 }
 
 .app__header-info {
-  flex: 0.65;
+  flex: 0.45;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -74,6 +74,10 @@
     flex-direction: column;
     margin-top: 3rem;
 
+    @media screen and (max-width: 1200px) {
+      margin-top: 1.5rem;
+    }
+
     p {
       width: 100%;
       text-transform: uppercase;
@@ -98,11 +102,18 @@
 .app__header-circles {
   flex: 0.75;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
   height: 100%;
-  margin-left: 1rem;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  div {
+    margin: 1rem;
+  }
 
   div {
     width: 100px;
@@ -120,83 +131,66 @@
 
   // circles with different height & width
 
+  
   div:nth-child(1) {
-    width: 100px;
-    height: 100px;
+    padding: 0.5rem;
+    width: 80 px;
+    height: 80 px;
   }
+
 
   div:nth-child(2) {
-    margin: 1.75rem;
-    width: 150px;
-    height: 150px;
+    margin: 0.25rem;
+    width: 130px;
+    height: 130px;
   }
+
 
   div:nth-child(3) {
-    width: 70px;
-    height: 70px;
+    margin: 0.25rem;
+    width: 80px;
+    height: 100px;
   }
 
   div:nth-child(4) {
+    margin: 0.5rem;
     width: 100px;
     height: 100px;
   }
 
   div:nth-child(5) {
-    margin: 1.75rem;
-    width: 150px;
-    height: 150px;
+    margin: 0.25rem;
+    width:  85px;
+    height: 85px;
   }
 
   div:nth-child(6) {
-    width: 70px;
-    height: 70px;
-  }
-
-  @media screen and (min-width: 2000px) {
-    div:nth-child(2) {
-      width: 400px;
-      height: 400px;
-    }
-
-    div:nth-child(3) {
-      width: 170px;
-      height: 170px;
-    }
-
-    div:nth-child(1) {
-      width: 200px;
-      height: 200px;
-    }
-
-    
-  div:nth-child(4) {
-    width: 100px;
-    height: 100px;
-  }
-
-  div:nth-child(5) {
-    margin: 1.75rem;
-    width: 150px;
-    height: 150px;
-  }
-
-  div:nth-child(6) {
-    width: 70px;
-    height: 70px;
+    margin: 0.5rem;
+    width: 125px;
+    height: 125px;
   }
   
+  div:nth-child(7) {
+    margin-top: -25px;
+    width: 60px;
+    height: 60px;
+  }
+
+  
+  div:nth-child(8) {
+    width: 60px;
+    height: 60px;
+  }
+  
+  div:nth-child(9) {
+    width: 55px;
+    height: 55px;
   }
 
   @media screen and (max-width: 1200px) {
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 0;
-
-    div {
-      margin: 1rem;
-    }
+    padding-top: 2rem;
   }
+
 }
 
 .app__header-img {

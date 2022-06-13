@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { About, Footer, Header, Skills, Work } from './container';
+import { About, Footer, Header, Work } from './container';
 
 import { Navbar } from './components'
 
@@ -13,7 +13,6 @@ const App = () => {
         <Header/>
         <About/>
         <Work/>
-        <Skills/>
         <Footer/>
     </div>
   )

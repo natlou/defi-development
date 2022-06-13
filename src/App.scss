@@ -97,7 +97,7 @@
     }
   }
   
-  .app__social {
+  .app__leftColumn {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -178,7 +178,7 @@
   
   @media screen and (max-width: 500px) {
     .app__navigation,
-    .app__social {
+    .app__leftColumn {
       display: none;
     }
   
