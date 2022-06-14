@@ -39,7 +39,10 @@
       }
   
       a {
-        color: var(--gray-color);
+        background: radial-gradient(circle at top right,#DA2EEF,#35B5E2);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
         text-decoration: none;
         flex-direction: column;
   
@@ -78,7 +81,7 @@
     span {
         display: block;
         height: 4px;
-        background-color: var(--secondary-color);
+        background: linear-gradient(to right, #35B5E2, #DA2EEF);
         border-radius: 100px;
         transition: transform .35s cubic-bezier(.54, .1, .42, 1.48),width .35s ease-out;
     }
@@ -89,6 +92,7 @@
     }
 
     span:nth-child(2) {
+      background: linear-gradient(to right, #DA2EEF,#35B5E2);
         margin-top: 5px;
         width: 30px;
     }

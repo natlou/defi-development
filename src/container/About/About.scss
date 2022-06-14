@@ -41,6 +41,11 @@
     color: transparent;
     font-weight: 500;
   }
+
+  @media screen and (max-width: 1500px) {
+    line-height: 32px;
+    font-size: 30px;
+  }
 }
 
 .content-text { 
@@ -52,6 +57,13 @@
   line-height: 2rem;
   font-weight: 400;
   text-align: left;
+  justify-content:center;
+  justify-items:center;
+
+  @media screen and (max-width: 1000px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 .content-interests {
@@ -60,7 +72,7 @@
   flex-direction: row;
   gap: 1.5rem; 
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1000px) {
     flex-direction:column;
   }
 

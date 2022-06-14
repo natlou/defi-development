@@ -22,21 +22,21 @@ const About = () => {
               <br></br>
               I never expected to become a web developer,
               <br></br>
-              but my desire to build Dapps (Decentralized Apps)
+              but my desire to build decentralized apps is 
               <br></br>
-              is what forced me into web development.
+              what got me into web development. Since then, 
               <br></br>
-              Since then, I have developed a strong passion for
+              I've developed a strong passion for all stages
               <br></br>
-              All stages of the web development process, including:
+              of the web development process, including:
               <br></br>
               UX/UI design, Front-end, Back-end, and DevOps.
               <br></br>
-              I use web development as tool in conjunction with
+              Together with math and finance, I use web
               <br></br>
-              math and finance to build financial applications that scale. 
+              development to build financial applications.
               <br></br>
-              Here are some of my research/development interests: 
+              Here are some of my research interests: 
             </div>
             <div className="content-interests">
               <div className="glass-card-teal">
@@ -67,7 +67,7 @@ const About = () => {
                 <br></br>
                 and defi motivates me to hone my web dev skills.
                 <br></br>
-                Being able to scalably build any app is my goal. 
+                Be it web2, web3, or web5, I'll always keep up. 
               </div>
             </div>   
           </motion.div>
