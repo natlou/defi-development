@@ -1,6 +1,7 @@
 .app {
     background-color: var(--primary-color);
     font-family: var(--font-base);
+    font-feature-settings: "ss04","tnum" 0;
   }
 
   .app__darkbg {
@@ -89,7 +90,7 @@
     }
 
   }
-  
+
   .bold-text {
     font-size: 1rem;
     font-weight: 800;

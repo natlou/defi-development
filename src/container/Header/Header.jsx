@@ -43,10 +43,20 @@ const Header = () => (
     
           </div>
 
-          <div className="tag-cmp">
-            <p className="p-text">Web Developer</p>
-            <p className="p-text"></p>
-          </div>
+          <motion.div className="app_header-titles">
+            <div className="tag-cmp ">
+              <p className="p-text title-item">Web Developer</p>
+              <p className="p-text"></p>
+            </div>
+            <div className="tag-cmp ">
+              <p className="p-text title-item">DeFi Developer</p>
+              <p className="p-text"></p>
+            </div>
+            <div className="tag-cmp title-item">
+              <p className="p-text title-item">Math-CS Student</p>
+              <p className="p-text"></p>
+            </div>
+          </motion.div>
         </div>
       </div>
     </motion.div>
