@@ -146,19 +146,21 @@
 .work_list {
   display: flex; 
   flex-direction: row;
-  border-radius: 15px;
+  border-radius: 24px;
   box-shadow: 0 70px 140px 0 rgba(68, 69, 70, 0.2);
   margin-top: 4rem;
   justify-content: center;
-  max-width: 75%;
+  max-width: 60%;
   margin-left: auto;
   margin-right: auto;
 
   .work_title {
 
     font-size: 32px;
-    
+
+
     @media screen and (max-width: 1000px) {
+      margin-top: 1rem;
       font-size: 24px; 
     }
 
@@ -166,7 +168,7 @@
 
   @media screen and (max-width: 1000px) {
     flex-direction: column-reverse;
-    border-radius: 10px;
+    border-radius: 24px;
     max-width: 100%;
   }
 
@@ -175,7 +177,6 @@
     padding: 50px;
     flex: 0 0 100%;
     text-align: left;
-    width: 50%;
 
 
     @media screen and (max-width: 1000px) {
@@ -188,14 +189,99 @@
     .work_detail {
       display: flex; 
       height: 100%;
-      justify-content: space-between;
+      width: 100%; 
 
+      @media screen and (max-width: 1000px) {
+        flex-direction: column-reverse;
+        gap: 10px;
+      }
+    }
+
+    .work_detail-odd {
+      display: flex; 
+      height: 100%;
+      width: 100%; 
+
+      @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        gap: 10px;
+      }
     }
 
   }
 
-  .work_img { 
 
+}
+
+.work_img { 
+
+  display: flex; 
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+
+  img {
+    width: auto; 
+    height: 288px; 
   }
 
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
+  }
+
+}
+
+.work_img-odd { 
+
+  display: flex; 
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: auto; 
+    height: 288px; 
+  }
+
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
+  }
+
+}
+
+.work_btn:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: 0 0;
+  border: 1px solid #0b2c9a;
+  opacity: 0;
+  z-index: 0;
+  will-change: transform;
+  transition: all .4s;
+  transform: scaleX(1.1) scaleY(1.3);
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.work_btn {
+  margin-top: 2.5rem; 
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 12px 40px;
+  background: #0c3ee3;
+  border: 1px solid #0c3ee3;
+  will-change: background, color, border-color;
+  color: #fff;
+  transition: all .25s;
+  text-decoration: none;
 }

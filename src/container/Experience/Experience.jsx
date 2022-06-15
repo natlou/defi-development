@@ -86,23 +86,51 @@ const Experience = () => {
                                 <div>
                                     <div className="work_title">CryptoSwap</div><br></br>
                                     <div className="work_info">
-                                        Decentralized exchange on the zkSync network.
+                                        Decentralized exchange on zkSync.
                                         <br></br>
-                                        We're creating new automated market makers
+                                        We're creating new automated
                                         <br></br>
-                                        (AMMs) that eliminate the order book while
+                                        market makers (AMMs) that eliminate
                                         <br></br>
-                                        keeping the market as efficient as possible. 
+                                        order book trading while keeping the
+                                        <br></br>
+                                        market as efficient as possible. 
                                     </div>
+                                    <a className="work_btn" href="https://cryptoswap.org">
+                                        View Project
+                                    </a>
+                                </div>
+                                <div className="work_img">
+                                    <img src='https://cryptoswap.org/icons/white_logo.svg' alt="cryptoswap" class="cryptoswap"/>
                                 </div>
                             </div>
                         </div>
-                        <div className="work_img">
-                            <img src='https://cryptoswap.org/icons/white_logo.svg' alt="cryptoswap" class="cryptoswap"/>
-                        </div>
                     </div>
                     <div className="work_list">
-                        DeFi
+                    <div className="work_desc">
+                            <div className="work_detail-odd">
+                                <div className="work_img-odd">
+                                    <img src='https://www.cryptocurrencyscript.com/images/defi_development/defi-development-company.webp' alt="defi.dev" class="defidev"/>
+                                </div>
+                                <div>
+                                    <div className="work_title">DeFi Developer</div><br></br>
+                                    <div className="work_info">
+                                        Learn decentralized finance (DeFi).
+                                        <br></br>
+                                        defi.dev provides guides and news
+                                        <br></br>
+                                        for DeFi developers including new 
+                                        <br></br>
+                                        paradigms, best practices, and
+                                        <br></br>
+                                        general analysis/research on DeFi. 
+                                    </div>
+                                    <a className="work_btn" href="https://defi.dev">
+                                        View Project
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
