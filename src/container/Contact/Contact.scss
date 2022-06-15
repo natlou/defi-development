@@ -1,4 +1,16 @@
 .app__contact {
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  ul {
+    position: relative; 
+    transform: shewY(-15deg);
+    
+    li {
+
+    }
+    
+  }
+
 }
