@@ -34,7 +34,6 @@ const About = () => {
 
     return (
         <div className='app__about'>
-          
           <img  className='app__about-warp' src="https://raydium.io/backgroundImages/home-bg-element-1.webp"/>
           <motion.div className='app__about-content'  
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}

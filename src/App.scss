@@ -1,4 +1,5 @@
 .app {
+    overflow: hidden;
     background-color: var(--primary-color);
     font-family: var(--font-base);
     font-feature-settings: "ss04","tnum" 0;
@@ -8,6 +9,10 @@
     background: url("./assets/divisor.svg") no-repeat top center;
     background-image: linear-gradient(to bottom right, var(--dark-color), #47287D);
 
+  }
+
+  .app__secondarybg {
+    background: url("./assets/bg5.svg");
   }
 
   .app__primarybg {

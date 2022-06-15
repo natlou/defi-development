@@ -12,6 +12,15 @@
   --brown-color: #46364a;
   --white-color: #ffffff;
   --black-color: #000000;
+
+  --white: #ffffff;
+  --black: #000;
+  --grey : #D3D3D3;
+  --facebook: #3b5999;
+  --twitter: #55acee;
+  --instagram: #e4405f;
+  --apple: #131418;
+  
 }
 
 * {

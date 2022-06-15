@@ -34,7 +34,7 @@ const scaleVariants = {
 const Experience = () => {
 
     return (
-        
+        <>
         <div className="app__experience">
             <div className="app__professional">
                 <div className="experience_header">
@@ -134,9 +134,11 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-        </div>
 
-    )
+        </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="4" fill="none" xmlnsV="https://vecta.io/nano"><path opacity=".5" stroke="url(#A)" stroke-width="4" stroke-linecap="round" d="M 2.0000000000001 2.0000000000001 L 1438 2"/><defs><linearGradient id="A" x1="0" y1="3.99976" x2="1440" y2="5" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".17431" stop-color="#dedbfc"/><stop offset=".35446" stop-color="#dae8fd"/><stop offset=".64525" stop-color="#fbdaf0"/><stop offset=".81644" stop-color="#fbe8ee"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs></svg>
+    </>
+            )
 };
 
 export default AppWrap(
