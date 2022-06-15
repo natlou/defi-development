@@ -96,12 +96,12 @@ const Experience = () => {
                                         <br></br>
                                         market as efficient as possible. 
                                     </div>
-                                    <a className="work_btn" href="https://cryptoswap.org">
+                                    <a className="work_btn" href="https://cryptoswap.org" target="_blank" rel="noreferrer">
                                         View Project
                                     </a>
                                 </div>
                                 <div className="work_img">
-                                    <img src='https://cryptoswap.org/icons/white_logo.svg' alt="cryptoswap" target="_blank" class="cryptoswap"/>
+                                    <img src='https://cryptoswap.org/icons/white_logo.svg' alt="cryptoswap" class="cryptoswap"/>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ const Experience = () => {
                                         <br></br>
                                         general analysis/research on DeFi. 
                                     </div>
-                                    <a className="work_btn"  target="_blank"  href="https://defi.dev">
+                                    <a className="work_btn"  target="_blank" rel="noreferrer"  href="https://defi.dev">
                                         View Project
                                     </a>
                                 </div>
