@@ -147,7 +147,7 @@
   display: flex; 
   flex-direction: row;
   border-radius: 24px;
-  box-shadow: 0 35px 70px 0 rgba(68, 69, 70, 0.2);
+  background: radial-gradient(circle at top right,#DA2EEF,#35B5E2);
   margin-top: 4rem;
   justify-content: center;
   max-width: 60%;
@@ -211,6 +211,10 @@
   }
 
 
+}
+
+.work_list:nth-child(2) {
+  background: radial-gradient(circle at bottom right,#35B5E2,#DA2EEF);
 }
 
 .work_img { 
