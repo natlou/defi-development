@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import { AppWrap, MotionWrap } from '../../wrapper';
+import { AppWrap } from '../../wrapper';
 import './Experience.scss';
 
 const scaleVariants = {
@@ -29,7 +29,7 @@ const scaleVariants = {
           ease: 'easeInOut',
         },
     },
-  };
+};
 
 const Experience = () => {
 
@@ -83,13 +83,22 @@ const Experience = () => {
                     <div className="work_list">
                         <div className="work_desc">
                             <div className="work_detail">
-                                <div className="work_title">CryptoSwap</div>
+                                <div>
+                                    <div className="work_title">CryptoSwap</div><br></br>
+                                    <div className="work_info">
+                                        Decentralized exchange on the zkSync network.
+                                        <br></br>
+                                        We're creating new automated market makers
+                                        <br></br>
+                                        (AMMs) that eliminate the order book while
+                                        <br></br>
+                                        keeping the market as efficient as possible. 
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="work_img">
-                            <div>
-                                aye
-                            </div>
+                            <img src='https://cryptoswap.org/icons/white_logo.svg' alt="cryptoswap" class="cryptoswap"/>
                         </div>
                     </div>
                     <div className="work_list">
