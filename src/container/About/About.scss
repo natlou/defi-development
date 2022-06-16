@@ -84,7 +84,7 @@
   }
 
   position: relative; 
-  backdrop-filter: blur(calc(3px * (-1 * (0,0) + 1)));
+  backdrop-filter: blur(calc(3px));
   color: #3bd0d8;
   background: linear-gradient(162deg,rgba(59,208,216,.2) 28.7%,
   (rgba(59,208,216,0), rgba(59,208,216,.2)));

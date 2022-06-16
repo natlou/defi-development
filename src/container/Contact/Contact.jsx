@@ -1,3 +1,4 @@
+import React from 'react';
 import { AppWrap } from '../../wrapper';
 import './Contact.scss';
 import '../Experience/Experience.scss';
