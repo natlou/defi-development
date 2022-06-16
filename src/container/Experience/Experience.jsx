@@ -110,7 +110,7 @@ const Experience = () => {
                     <div className="work_desc">
                             <div className="work_detail-odd">
                                 <div className="work_img-odd">
-                                    <img src='https://www.cryptocurrencyscript.com/images/defi_development/defi-development-company.webp' alt="defi.dev" class="defidev"/>
+                                    <img src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/robot-face_1f916.png' alt="defi.dev" class="defidev"/>
                                 </div>
                                 <div>
                                     <div className="work_title">DeFi Developer</div><br></br>
