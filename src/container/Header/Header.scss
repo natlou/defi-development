@@ -55,6 +55,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  -webkit-align-items: flex-end;
   flex-direction: column;
 
   .animation-cmp {
@@ -193,7 +194,7 @@
 
   .app__header-animate-container {
     display:flex;
-    width:full;
+    width: full;
     flex-direction: row;
   }
 

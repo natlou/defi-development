@@ -68,12 +68,14 @@
 
 .content-interests {
   margin-top: 2.5rem; 
-  display: flex; 
-  flex-direction: row;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
   gap: 1.5rem; 
 
   @media screen and (max-width: 1000px) {
-    flex-direction:column;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
   }
 
 }
