@@ -71,10 +71,18 @@
   flex: 0 0 calc((100% - 88px) / 5);
   width: calc((100% - 88px) / 5);
 
+  &+.pro_group {
+    margin-left: 25px;
+  }
+
   @media screen and (max-width: 1000px) {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     width: 100%;
+    
+    &+.pro_group {
+      margin-left: 0px;
+    }
   }
 
   .gold {
@@ -93,9 +101,7 @@
     box-shadow: 0 5px 10px 0 #0D3692
   }
 
-  &+.pro_group {
-    margin-left: 25px;
-  }
+
 }
 
 .pro_item {
@@ -143,6 +149,13 @@
 
   &+.pro_item {
     margin: 25px 0 0;
+  }
+  @media screen and (max-width: 1000px) {
+    margin-bottom: 25px;
+
+    &+.pro_item {
+      margin: 0 0 25px;
+    }
   }
 
 }
