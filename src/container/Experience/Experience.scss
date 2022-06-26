@@ -92,6 +92,10 @@
   .baruch {
     box-shadow: 0 5px 10px 0 #0D3692
   }
+
+  &+.pro_group {
+    margin-left: 25px;
+  }
 }
 
 .pro_item {
@@ -135,6 +139,10 @@
 
   .baruchcollege {
     height: 48px;
+  }
+
+  &+.pro_item {
+    margin: 25px 0 0;
   }
 
 }
