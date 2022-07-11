@@ -56,6 +56,7 @@
   align-items: flex-end;
   -webkit-align-items: flex-end;
   flex-direction: column;
+  padding-top: 3.5rem;
 
   .animation-cmp {
     position: relative; 
@@ -204,6 +205,7 @@
   @media screen and (max-width: 1200px) {
     justify-content: flex-start;
     align-items: flex-start;
+    padding-top: 0rem; 
   }
 
   .app__header-animate-container {
@@ -337,12 +339,40 @@
     height: 100px;
   }
 
-    
+  
   div:nth-child(13) {
+    width: 75px;
+    height: 75px;
+  }
+    
+  div:nth-child(14) {
     margin: 0.75rem;
     width: 125px;
     height: 125px;
   }
+
+  
+  div:nth-child(15) {
+    width: 75px;
+    height: 75px;
+  }
+
+  div:nth-child(16) {
+    width: 100px;
+    height: 100px;
+  }
+
+
+  div:nth-child(17) {
+    width: 100px;
+    height: 100px;
+  }
+
+  div:nth-child(18) {
+    width: 100px;
+    height: 100px;
+  }
+
 
   @media screen and (max-width: 1200px) {
     padding-top: 2rem;

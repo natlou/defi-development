@@ -12,8 +12,12 @@ import aws from '../assets/aws.png';
 import ethers from '../assets/ethers.png';
 import r from '../assets/R.svg';
 import sql from '../assets/sql.png';
-import tailwind from '../assets/tailwind.jpg'
-import solidity from '../assets/solidity.png'
+import tailwind from '../assets/tailwind.jpg';
+import solidity from '../assets/solidity.png';
+import webpack from '../assets/webpack.png';
+import hardhat from '../assets/hardhat.png';
+import docker from '../assets/docker.png';
+import golang from '../assets/golang.png';
 
 import circle from '../assets/circle.svg';
 import spinner from '../assets/bg_spinner.svg';
@@ -40,4 +44,8 @@ export default {
   circle,
   spinner,
   divisor,
+  webpack,
+  docker,
+  hardhat,
+  golang,
 };
