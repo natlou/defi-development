@@ -51,7 +51,7 @@ const About = () => {
               <br></br>
               but my desire to build decentralized apps is 
               <br></br>
-              what got me into web development. Since then, 
+              what led me into web development. Since then, 
               <br></br>
               I've developed a strong passion for all stages
               <br></br>

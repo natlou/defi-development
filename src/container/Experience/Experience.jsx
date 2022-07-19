@@ -86,7 +86,9 @@ const Experience = () => {
                                 <div>
                                     <div className="work_title">CryptoSwap</div><br></br>
                                     <div className="work_info">
-                                        Decentralized exchange on zkSync.
+                                        Decentralized exchange on mutiple 
+                                        <br></br>
+                                        networks such as zkSync and StarkNet.
                                         <br></br>
                                         We're creating new automated
                                         <br></br>
@@ -110,20 +112,26 @@ const Experience = () => {
                     <div className="work_desc">
                             <div className="work_detail-odd">
                                 <div className="work_img-odd">
-                                    <img src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/robot-face_1f916.png' alt="defi.dev" class="defidev"/>
+                                    <img src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/310/robot_1f916.png' alt="defi.dev" class="defidev"/>
                                 </div>
                                 <div>
                                     <div className="work_title">DeFi Developer</div><br></br>
                                     <div className="work_info">
                                         Learn decentralized finance (DeFi).
                                         <br></br>
-                                        defi.dev provides guides and news
+                                        DeFi.dev is a one-stop-shop for 
                                         <br></br>
-                                        for DeFi developers including new 
+                                        DeFi developers. It hosts a forum
                                         <br></br>
-                                        paradigms, best practices, and
+                                        for developers to collaborate and 
                                         <br></br>
-                                        general analysis/research on DeFi. 
+                                        help each each. DeFi.dev also 
+                                        <br></br>
+                                        provides  ahands on guide that 
+                                        <br></br>
+                                        teaches paradigms, best practices, 
+                                        <br></br>
+                                        and examples to new developers!
                                     </div>
                                     <a className="work_btn"  target="_blank" rel="noreferrer"  href="https://defi.dev">
                                         View Project
