@@ -125,7 +125,7 @@ const Experience = () => {
                                         <br></br>
                                         for developers to collaborate and 
                                         <br></br>
-                                        help each each. DeFi.dev also 
+                                        help each other. DeFi.dev also 
                                         <br></br>
                                         provides  ahands on guide that 
                                         <br></br>
