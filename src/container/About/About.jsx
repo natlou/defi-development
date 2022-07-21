@@ -42,7 +42,7 @@ const About = () => {
             <div className="content-header">
               My skills evolve as
               <br></br>
-              the <span>Web</span> and <span>DeFi</span> evolves
+              the <span>Web</span> and <span>Finance</span> evolves
             </div>
             <div className='content-text'>
               I'm Nathan, a junior Math-CS major at UCLA, 

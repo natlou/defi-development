@@ -127,9 +127,9 @@ const Experience = () => {
                                         <br></br>
                                         help each other. DeFi.dev also 
                                         <br></br>
-                                        provides  ahands on guide that 
+                                        provides hands on guide that 
                                         <br></br>
-                                        teaches paradigms, best practices, 
+                                        teach paradigms, best practices, 
                                         <br></br>
                                         and examples to new developers!
                                     </div>
